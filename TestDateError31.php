@@ -30,7 +30,7 @@ class TestDateError31 extends TestCase
         $monthDropdown = $this->driver->findElement(WebDriverBy::id("month"));
         $yearInput = $this->driver->findElement(WebDriverBy::id("year"));
 
-        $dayDropdown->sendKeys("31");
+        $dayDropdown->sendKeys("10");
         $monthDropdown->sendKeys("เมษายน");
         $yearInput->sendKeys("2023");
 
